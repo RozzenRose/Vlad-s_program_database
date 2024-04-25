@@ -12,3 +12,16 @@ true
 true
 true
 ```
+
+Важно отметить что при проверке объекта с помощью этой функции она учитывает наследование, например
+
+```python
+class A:
+	pass
+
+Class B(A):
+	pass
+
+t = B()
+print(isinstance(t, A)) # вернет True
+```
