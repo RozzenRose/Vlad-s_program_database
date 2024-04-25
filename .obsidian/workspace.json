@@ -11,12 +11,8 @@
             "id": "c38513d6bf645a02",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pytthon/Файлы/Запись в файл.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pytthon/Файлы/Запись в файл.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pytthon/Файлы/Запись в файл.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pytthon/Файлы/Запись в файл.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c38513d6bf645a02",
+  "active": "0d2821d8317e81d4",
   "lastOpenFiles": [
+    "README.md",
     "Vlad-s_program_database",
     "pytthon/Файлы/Чтение файла.md",
     "pytthon/Встроенные функции/enumerate().md",
@@ -185,7 +178,6 @@
     "pytthon",
     "Модули/Модуль funсtools",
     "pytthon/Встроенные методы",
-    "pytthon/Встроенные функции",
-    "pytthon/Модули"
+    "pytthon/Встроенные функции"
   ]
 }
