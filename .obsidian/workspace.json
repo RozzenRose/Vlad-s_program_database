@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Встроенные функции/isinstance() - проверка типа.md",
+                "file": "Linux/Перемещение по файловой системе.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Встроенные функции/isinstance() - проверка типа.md",
+                "file": "Linux/Перемещение по файловой системе.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Встроенные функции/isinstance() - проверка типа.md",
+                "file": "Linux/Перемещение по файловой системе.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Встроенные функции/isinstance() - проверка типа.md"
+                "file": "Linux/Перемещение по файловой системе.md"
               }
             }
           }
@@ -146,15 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d2821d8317e81d4",
+  "active": "c38513d6bf645a02",
   "lastOpenFiles": [
-    "python/Встроенные функции/map() - модификатор.md",
+    "Linux/Текстовые файлы.md",
+    "Linux/Модификаторы.md",
+    "Linux/man - мануал.md",
+    "python/Файлы/tell() - положение курсора.md",
+    "python/Файлы/Запись в файл.md",
+    "python/Типы объектов/dict (словари).md",
     "README.md",
-    "python/Встроенные функции/enumerate().md",
-    "python/Встроенные функции/all() any()- проверка.md",
-    "Пикчи/Pasted image 20240419131632.png",
-    "Пикчи/Pasted image 20240417181003.png",
-    "python/Типы объектов/decimal (числа с плавающей точкой).md",
     "Vlad-s_program_database",
     "pytthon/Файлы/Чтение файла.md",
     "pytthon/Встроенные функции/enumerate().md",
@@ -175,13 +175,13 @@
     "pytthon/Встроенные функции/zip() склеивание.md",
     "pytthon/Встроенные функции/all() any()- проверка.md",
     "pytthon/Встроенные функции/type() - определение типа.md",
-    "pytthon/Встроенные функции/sorted() сортировка.md",
-    "pytthon/Встроенные функции/sort() - сортировка.md",
     "Untitled.canvas",
     "pytthon/Файлы",
     "Linux",
+    "Пикчи/Pasted image 20240419131632.png",
     "pytthon/Модули/Модуль functools",
     "pytthon/Изменяемы Неизменяемые",
+    "Пикчи/Pasted image 20240417181003.png",
     "pytthon/Типы объектов",
     "pytthon",
     "Модули/Модуль funсtools",
