@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Перемещение по файловой системе.md",
+                "file": "python/Типы объектов/str (Строки).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Перемещение по файловой системе.md",
+                "file": "python/Типы объектов/str (Строки).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Перемещение по файловой системе.md",
+                "file": "python/Типы объектов/str (Строки).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Перемещение по файловой системе.md"
+                "file": "python/Типы объектов/str (Строки).md"
               }
             }
           }
@@ -148,9 +148,26 @@
   },
   "active": "c38513d6bf645a02",
   "lastOpenFiles": [
+    "python/Модули/Модуль operator.md",
+    "python/Встроенные функции/enumerate().md",
+    "python/Встроенные функции/isinstance() - проверка типа.md",
+    "python/Модули/Модуль fractions.md",
+    "python/Модули/Модуль math.md",
+    "python/Модули/Модуль decimal.md",
+    "python/Модули/Модули.md",
+    "python/Модули/Модуль functools/Модуль funсtools.md",
+    "python/with Менеджер контекста.md",
+    "python/lambda функции.md",
+    "Linux/man - мануал.md",
+    "python/Типы объектов/list (Списки).md",
+    "python/Модули/Модуль functools/reduce().md",
+    "Linux/Хоткеи терминала.md",
+    "Linux/kill - убийство процессов.md",
+    "Linux/bg - в фоновый режим.md",
+    "Linux/devnull.md",
+    "Linux/Перемещение по файловой системе.md",
     "Linux/Текстовые файлы.md",
     "Linux/Модификаторы.md",
-    "Linux/man - мануал.md",
     "python/Файлы/tell() - положение курсора.md",
     "python/Файлы/Запись в файл.md",
     "python/Типы объектов/dict (словари).md",
@@ -158,23 +175,6 @@
     "Vlad-s_program_database",
     "pytthon/Файлы/Чтение файла.md",
     "pytthon/Встроенные функции/enumerate().md",
-    "pytthon/Файлы/Запись в файл.md",
-    "pytthon/Файлы/open() - вызов файла.md",
-    "pytthon/Файлы/Работа с файлами.md",
-    "pytthon/Файлы/Кодировка.md",
-    "pytthon/Файлы/Закрытие файла.md",
-    "pytthon/Файлы/tell() - положение курсора.md",
-    "pytthon/Файлы/seek() - перемещение курсора.md",
-    "pytthon/lambda функции.md",
-    "pytthon/with Менеджер контекста.md",
-    "Linux/kill - убийство процессов.md",
-    "pytthon/Встроенные функции/Встроенные функции.md",
-    "pytthon/Встроенные функции/isinstance() - проверка типа.md",
-    "pytthon/Встроенные функции/filter() - фильтр.md",
-    "pytthon/Встроенные функции/format() f - строки.md",
-    "pytthon/Встроенные функции/zip() склеивание.md",
-    "pytthon/Встроенные функции/all() any()- проверка.md",
-    "pytthon/Встроенные функции/type() - определение типа.md",
     "Untitled.canvas",
     "pytthon/Файлы",
     "Linux",
