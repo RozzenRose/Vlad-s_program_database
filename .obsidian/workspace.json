@@ -11,12 +11,8 @@
             "id": "c38513d6bf645a02",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python/Типы объектов/str (Строки).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Типы объектов/str (Строки).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Типы объектов/str (Строки).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "python/Типы объектов/str (Строки).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,6 +140,23 @@
   },
   "active": "c38513d6bf645a02",
   "lastOpenFiles": [
+    "python/Встроенные функции/Встроенные функции.md",
+    "python/Встроенные функции/id().md",
+    "python/Операторы/is.md",
+    "python/Типы объектов/Типы объектов.md",
+    "python/Типы объектов/dict (словари).md",
+    "python/Операторы",
+    "python/Типы объектов/set (множество).md",
+    "python/Типы объектов/tuple (кортежи).md",
+    "python/Типы объектов/str (Строки).md",
+    "python/Типы объектов/list (Списки).md",
+    "python/Типы объектов/int (целочисленные).md",
+    "python/Типы объектов/Fractions (дроби).md",
+    "python/Типы объектов/float (числа с плавающей точкой).md",
+    "python/Типы объектов/decimal (числа с плавающей точкой).md",
+    "python/Типы объектов/bool (бинарные).md",
+    "python/def функции.md",
+    "python/lambda функции.md",
     "python/Модули/Модуль operator.md",
     "python/Встроенные функции/enumerate().md",
     "python/Встроенные функции/isinstance() - проверка типа.md",
@@ -157,24 +166,8 @@
     "python/Модули/Модули.md",
     "python/Модули/Модуль functools/Модуль funсtools.md",
     "python/with Менеджер контекста.md",
-    "python/lambda функции.md",
     "Linux/man - мануал.md",
-    "python/Типы объектов/list (Списки).md",
-    "python/Модули/Модуль functools/reduce().md",
-    "Linux/Хоткеи терминала.md",
-    "Linux/kill - убийство процессов.md",
-    "Linux/bg - в фоновый режим.md",
-    "Linux/devnull.md",
-    "Linux/Перемещение по файловой системе.md",
-    "Linux/Текстовые файлы.md",
-    "Linux/Модификаторы.md",
-    "python/Файлы/tell() - положение курсора.md",
-    "python/Файлы/Запись в файл.md",
-    "python/Типы объектов/dict (словари).md",
-    "README.md",
     "Vlad-s_program_database",
-    "pytthon/Файлы/Чтение файла.md",
-    "pytthon/Встроенные функции/enumerate().md",
     "Untitled.canvas",
     "pytthon/Файлы",
     "Linux",
@@ -185,7 +178,6 @@
     "pytthon/Типы объектов",
     "pytthon",
     "Модули/Модуль funсtools",
-    "pytthon/Встроенные методы",
-    "pytthon/Встроенные функции"
+    "pytthon/Встроенные методы"
   ]
 }
