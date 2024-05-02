@@ -14,7 +14,7 @@ print(my_date)
 print(type(my_date))
 ```
 ```
-1992-10-06
+1995-12-20
 <class 'datetime.date'>
 ```
 Тип `date` имеет атрибуты `year`, `month` и `day`

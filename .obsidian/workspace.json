@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Модули/Модуль datetime/Модуль datetime.md",
+                "file": "python/Модули/Модуль datetime/Типы datetime/date (дата).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Модули/Модуль datetime/Модуль datetime.md",
+                "file": "python/Модули/Модуль datetime/Типы datetime/date (дата).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Модули/Модуль datetime/Модуль datetime.md",
+                "file": "python/Модули/Модуль datetime/Типы datetime/date (дата).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Модули/Модуль datetime/Модуль datetime.md"
+                "file": "python/Модули/Модуль datetime/Типы datetime/date (дата).md"
               }
             }
           }
@@ -148,11 +148,13 @@
   },
   "active": "c38513d6bf645a02",
   "lastOpenFiles": [
-    "python/Модули/Модуль datetime/Типы datetime/time (время).md",
     "python/Модули/Модуль datetime/Модуль datetime.md",
+    "python/Модули/Модуль datetime/Типы datetime/time (время).md",
+    "python/with Менеджер контекста.md",
+    "python/Модули/Модуль datetime/Методы datetime/str() и repr().md",
+    "README.md",
     "python/Модули/Модуль datetime/Типы datetime/date (дата).md",
     "python/Модули/Модуль datetime/Методы datetime/Методы datetime.md",
-    "python/Модули/Модуль datetime/Методы datetime/str() и repr().md",
     "python/Модули/Модули.md",
     "python/Встроенные функции/repr().md",
     "python/Модули/Модуль datetime/Методы datetime",
@@ -164,7 +166,6 @@
     "python/Модули/Модуль operator.md",
     "Пикчи/Pasted image 20240419131632.png",
     "Пикчи/Pasted image 20240417181003.png",
-    "README.md",
     "python/Модули/Модуль math.md",
     "python/Модули/Модуль fractions.md",
     "python/Модули/Модуль decimal.md",
@@ -178,7 +179,6 @@
     "python/Операторы/is.md",
     "Linux/Текстовые файлы.md",
     "python/Типы объектов/dict (словари).md",
-    "python/Типы объектов/Типы объектов.md",
     "python/Операторы",
     "Vlad-s_program_database",
     "Untitled.canvas",
