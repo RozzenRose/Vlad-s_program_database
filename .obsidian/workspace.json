@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Модули/Модуль functools/cmp_to_key().md",
+                "file": "python/Модули/Модуль datetime/Модуль datetime.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Модули/Модуль functools/cmp_to_key().md",
+                "file": "python/Модули/Модуль datetime/Модуль datetime.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Модули/Модуль functools/cmp_to_key().md",
+                "file": "python/Модули/Модуль datetime/Модуль datetime.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Модули/Модуль functools/cmp_to_key().md"
+                "file": "python/Модули/Модуль datetime/Модуль datetime.md"
               }
             }
           }
@@ -148,44 +148,44 @@
   },
   "active": "c38513d6bf645a02",
   "lastOpenFiles": [
+    "python/Модули/Модуль datetime/Типы datetime/time (время).md",
+    "python/Модули/Модуль datetime/Модуль datetime.md",
+    "python/Модули/Модуль datetime/Типы datetime/date (дата).md",
+    "python/Модули/Модуль datetime/Методы datetime/Методы datetime.md",
+    "python/Модули/Модуль datetime/Методы datetime/str() и repr().md",
+    "python/Модули/Модули.md",
+    "python/Встроенные функции/repr().md",
+    "python/Модули/Модуль datetime/Методы datetime",
+    "python/Модули/Модуль datetime/Типы datetime",
+    "python/Модули/Модуль datetime",
     "python/Модули/Модуль functools/reduce().md",
     "python/Модули/Модуль functools/cmp_to_key().md",
     "python/Модули/Модуль functools/Модуль funсtools.md",
-    "python/Типы объектов/Типы объектов.md",
-    "python/Встроенные функции/Встроенные функции.md",
-    "python/Встроенные функции/sort() - сортировка.md",
-    "python/Встроенные функции/sorted() сортировка.md",
-    "python/Встроенные функции/type() - определение типа.md",
-    "python/Встроенные функции/enumerate().md",
-    "python/Встроенные функции/format() f - строки.md",
+    "python/Модули/Модуль operator.md",
+    "Пикчи/Pasted image 20240419131632.png",
+    "Пикчи/Pasted image 20240417181003.png",
+    "README.md",
+    "python/Модули/Модуль math.md",
+    "python/Модули/Модуль fractions.md",
+    "python/Модули/Модуль decimal.md",
     "python/Встроенные функции/round() - округление чисел.md",
-    "python/Встроенные функции/range() - последовательность.md",
-    "python/Типы объектов/list (Списки).md",
-    "python/Типы объектов/dict (словари).md",
-    "python/Встроенные функции/id().md",
-    "python/Операторы/is.md",
-    "python/Операторы",
-    "python/Типы объектов/set (множество).md",
-    "python/Типы объектов/tuple (кортежи).md",
+    "python/Файлы/open() - вызов файла.md",
+    "python/Файлы/seek() - перемещение курсора.md",
+    "python/Файлы/Чтение файла.md",
+    "Linux/Перемещение по файловой системе.md",
     "python/Типы объектов/str (Строки).md",
-    "python/Типы объектов/int (целочисленные).md",
-    "python/Типы объектов/Fractions (дроби).md",
-    "python/Типы объектов/float (числа с плавающей точкой).md",
-    "python/Типы объектов/decimal (числа с плавающей точкой).md",
-    "python/Типы объектов/bool (бинарные).md",
-    "python/def функции.md",
-    "python/lambda функции.md",
+    "python/Типы объектов/set (множество).md",
+    "python/Операторы/is.md",
+    "Linux/Текстовые файлы.md",
+    "python/Типы объектов/dict (словари).md",
+    "python/Типы объектов/Типы объектов.md",
+    "python/Операторы",
     "Vlad-s_program_database",
     "Untitled.canvas",
     "pytthon/Файлы",
     "Linux",
-    "Пикчи/Pasted image 20240419131632.png",
     "pytthon/Модули/Модуль functools",
     "pytthon/Изменяемы Неизменяемые",
-    "Пикчи/Pasted image 20240417181003.png",
-    "pytthon/Типы объектов",
-    "pytthon",
-    "Модули/Модуль funсtools",
-    "pytthon/Встроенные методы"
+    "pytthon/Типы объектов"
   ]
 }

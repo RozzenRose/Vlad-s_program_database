@@ -32,7 +32,7 @@ language['GoLeng'] = 'Роберт Гризмер'
 ```
 
 
-#### Метод fromkeys()
+#### Метод dict.fromkeys()
 Позволяет создать словарь, где каждому ключу соответствуют одинаковые значения
 ```python
 dict1 = dict.fromkeys(['name', 'age', 'job'], 'Missed information')
