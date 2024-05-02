@@ -149,11 +149,11 @@
   "active": "c38513d6bf645a02",
   "lastOpenFiles": [
     "python/Модули/Модуль datetime/Модуль datetime.md",
+    "python/Модули/Модуль datetime/Типы datetime/date (дата).md",
     "python/Модули/Модуль datetime/Типы datetime/time (время).md",
     "python/with Менеджер контекста.md",
     "python/Модули/Модуль datetime/Методы datetime/str() и repr().md",
     "README.md",
-    "python/Модули/Модуль datetime/Типы datetime/date (дата).md",
     "python/Модули/Модуль datetime/Методы datetime/Методы datetime.md",
     "python/Модули/Модули.md",
     "python/Встроенные функции/repr().md",
