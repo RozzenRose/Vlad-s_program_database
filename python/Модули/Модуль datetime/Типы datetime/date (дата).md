@@ -1,4 +1,4 @@
-#модуль #datetime #неизменяемый
+Модуль #datetime #неизменяемый #объект #тип_данных
 
 
 Тип данных из [[Модуль datetime|модуля datetime]]
@@ -52,6 +52,31 @@ print(datetime.MINYEAR)
 ```
 9999
 1
+```
+Существуют ограничения для каждого числа
+
+| Годы   | 0001 <= `hour` <= 9999 |
+| ------ | ---------------------- |
+| Месяцы | 01 <= `minute` <= 12   |
+| Дни    | 01 <= `second` <= 31   |
+
+Пример преобразования из  строки:
+
+```python
+from datetime import date, time
+
+day, month, year = input('Введите дату в формате ДД.ММ.ГГГГ').split('.')
+hour, minute, second = input('Введите время в формате ЧЧ:ММ:СС').split(':')
+
+my_date = date(int(year), int(month), int(day)) # создаем объект типа date
+my_time = time(int(hour), int(minute), int(second)) # создаем объект типа time
+
+print(my_date)
+print(my_time)
+```
+```
+2021-11-13
+21:34:59
 ```
 ### today()
 Можно получить сегодняшнее число при помощи метода `today()`
