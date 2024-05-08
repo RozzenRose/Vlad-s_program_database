@@ -4,6 +4,7 @@
 Метод содержится к одноименном подклассе модуля `dateutil`. Предназначен для сборки объектов типа `datetime` на основе строк, содержащих данные о дате и времени
 ```python
 from dateutil.parser import parse
+from datetime import datetime, date
 
 # Разбор строки с датой и временем
 dt = parse("2024-05-08 17:15:01")
@@ -31,6 +32,7 @@ print(dt)  # Выведет 2024-05-08 17:15:01
 ```python
 from dateutil.parser import parse
 from dateutil.tz import gettz
+from datetime import datetime, date
 
 # Дополнительные часовые пояса
 tzinfos = {"BRST": -7200, "CST": gettz("America/Chicago")}
@@ -49,6 +51,7 @@ print(dt)  # Выведет объект datetime с учетом часовог
 Полезно, когда строка содержит лишний текст помимо инфы о дате и времени
 ```python
 from dateutil.parser import parse
+from datetime import datetime, date
 
 date_string = "Today is January 1, 2047 at 8:21:00AM"
 dt = parse(date_string, fuzzy=True)

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "60712182f6aec5ed",
+        "id": "b2c3a8df3e52b5a8",
         "type": "tabs",
         "children": [
           {
-            "id": "cd19f1052e2c81b5",
+            "id": "ddeab516dd0d29be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Модули/Модуль dateutil/Модуль dateutil.md",
+                "file": "Почитать.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#firstweekday",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 330.5
   },
   "right": {
     "id": "f09edf7cd9832b1d",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Модули/Модуль dateutil/Модуль dateutil.md",
+                "file": "Почитать.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Модули/Модуль dateutil/Модуль dateutil.md",
+                "file": "Почитать.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Модули/Модуль dateutil/Модуль dateutil.md"
+                "file": "Почитать.md"
               }
             }
           }
@@ -147,16 +147,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd19f1052e2c81b5",
+  "active": "ddeab516dd0d29be",
   "lastOpenFiles": [
-    "python/Модули/Модуль dateutil/Методы dateutil/datetime.now() today().md",
-    "python/Модули/Модуль dateutil/Методы dateutil/parser.md",
-    "python/Модули/Модуль datetime/Типы datetime/datetime (время и дата).md",
-    "python/Модули/Модуль dateutil/Типы объектов dateutil/relativdelta().md",
-    "python/Модули/Модуль datetime/Модуль datetime.md",
     "python/Модули/Модуль dateutil/Модуль dateutil.md",
-    "python/Модули/Модули.md",
+    "python/Модули/Модуль datetime/Типы datetime/tzinfo.md",
+    "python/Модули/Модуль dateutil/Методы dateutil/relativdelta().md",
+    "python/Модули/Модуль time/Методы time/Методы time.md",
     "python/Модули/Модуль time/Модуль time.md",
+    "python/Модули/Модуль datetime/Модуль datetime.md",
+    "python/Модули/Модуль datetime/Типы datetime/Типы объектов datetime.md",
+    "python/Модули/Модуль datetime/Типы datetime/datetime (время и дата).md",
+    "python/Модули/Модуль datetime/Типы datetime/time (время).md",
+    "python/Модули/Модуль datetime/Методы datetime/fromisoformat().md",
+    "python/Модули/Модуль dateutil/Методы dateutil/parser().md",
+    "python/Модули/Модуль dateutil/Методы dateutil/rrule() rruleset().md",
+    "python/Модули/Модуль dateutil/Методы dateutil/datetime.now() today().md",
+    "python/Модули/Модуль time/Типы данных/struct_time.md",
+    "Почитать.md",
+    "struct time.md",
+    "python/Модули/Модули.md",
     "python/Модули/Модуль dateutil/Типы объектов dateutil/Типы объектов dateutil.md",
     "python/Модули/Модуль dateutil/Методы dateutil",
     "python/Модули/Модуль dateutil/Типы объектов dateutil/Untitled",
@@ -170,15 +179,6 @@
     "python/Модули/Модуль calendar/Методы calendar/prmonth() prcal().md",
     "python/Модули/Модуль calendar/Методы calendar/leapdays().md",
     "python/Модули/Модуль calendar/Методы calendar/month().md",
-    "python/Модули/Модуль calendar/Методы calendar/monthcalendar().md",
-    "python/Модули/Модуль calendar/Методы calendar/firstweekday().md",
-    "python/Модули/Модуль calendar/Модуль calendar.md",
-    "python/Модули/Модуль calendar/Методы calendar/weekdays().md",
-    "python/Модули/Модуль calendar/Методы calendar/setfirstweekend().md",
-    "python/Модули/Модуль calendar/Методы calendar/isleap().md",
-    "python/Модули/Модуль time/Типы данных/struct_time.md",
-    "python/Модули/Модуль calendar/Методы calendar/calendar().md",
-    "python/Модули/Модуль time/Методы time/ctime().md",
     "python/Модули/Модуль calendar/Методы calendar",
     "python/Модули/Модуль calendar",
     "python/Модули/Модуль time/Методы time",

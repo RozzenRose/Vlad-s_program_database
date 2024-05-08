@@ -1,4 +1,4 @@
-#объект #datetime #python #dateutil #date
+#метод #datetime #python #dateutil #date
 
 
 Метод для работы с объектами `datetime`  и `date`, может изменять определенные компоненты этих объектов или представлять из себя разницу между ними. В отличии от `timedelta` умеет работать с месяцами и годами и днями недели
@@ -12,7 +12,7 @@ relativedaelta(datetime1, datetime2)
 relativedaelta(years, months, days, hours, minutes, seconds, microseconds, weekday)
 ```
 
-Еще можно к объектам `datetime/date` прибавлять экземпляры класса `relativdelta`:
+Еще можно к значениям в объектах `datetime/date` прибавлять время при помощи `relativdelta`, а можно вообще заменять:
 ```python
 from datetime import datetime, date
 from dateutil.relativedelta import relativedelta
@@ -24,13 +24,10 @@ print("Дата сегодня:", dt_today)
 
 # Следующий месяц
 print(dt_now + relativedelta(months=+1))
- 
 # Следующий месяц, плюс одна неделя
-print(dt_now + relativedelta(months=+1, weeks=+1))
- 
+print(dt_now + relativedelta(months=+1, weeks=+1)) 
 # Следующий месяц, плюс одна неделя, в 17:00.
 print(dt_now + relativedelta(months=+1, weeks=+1, hour=17))
- 
 # Следующая пятница
 print(dt_today + relativedelta(weekday=4))
 ```
