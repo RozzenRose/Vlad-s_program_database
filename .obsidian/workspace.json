@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4c3e5140beedebc1",
+        "id": "60712182f6aec5ed",
         "type": "tabs",
         "children": [
           {
-            "id": "c38513d6bf645a02",
+            "id": "cd19f1052e2c81b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Модули/Модуль datetime/Типы datetime/datetime (время и дата).md",
+                "file": "python/Модули/Модуль dateutil/Модуль dateutil.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#firstweekday",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Модули/Модуль datetime/Типы datetime/datetime (время и дата).md",
+                "file": "python/Модули/Модуль dateutil/Модуль dateutil.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Модули/Модуль datetime/Типы datetime/datetime (время и дата).md",
+                "file": "python/Модули/Модуль dateutil/Модуль dateutil.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Модули/Модуль datetime/Типы datetime/datetime (время и дата).md"
+                "file": "python/Модули/Модуль dateutil/Модуль dateutil.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,46 +147,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c38513d6bf645a02",
+  "active": "cd19f1052e2c81b5",
   "lastOpenFiles": [
-    "python/Модули/Модуль datetime/Типы datetime/timedelta (разница во времени).md",
-    "python/Модули/Модуль functools/reduce().md",
-    "python/Модули/Модуль datetime/Методы datetime/Методы datetime.md",
-    "python/Модули/Модуль functools/Модуль funсtools.md",
-    "python/Модули/Модуль datetime/Методы datetime/strftime().md",
-    "python/Модули/Модуль operator.md",
+    "python/Модули/Модуль dateutil/Методы dateutil/datetime.now() today().md",
+    "python/Модули/Модуль dateutil/Методы dateutil/parser.md",
     "python/Модули/Модуль datetime/Типы datetime/datetime (время и дата).md",
-    "python/Модули/Модуль datetime/Типы datetime/date (дата).md",
-    "python/Модули/Модуль datetime/Типы datetime/Типы объектов datetime.md",
+    "python/Модули/Модуль dateutil/Типы объектов dateutil/relativdelta().md",
     "python/Модули/Модуль datetime/Модуль datetime.md",
-    "python/Модули/Модуль datetime/Методы datetime/fromisoformat().md",
-    "python/Модули/Модуль datetime/Типы datetime/time (время).md",
-    "python/try-except.md",
-    "Linux/Текстовые файлы.md",
-    "Linux/Перемещение по файловой системе.md",
-    "python/Модули/Модуль functools/cmp_to_key().md",
-    "python/Модули/Модуль locale.md",
-    "python/Модули/Модуль math.md",
+    "python/Модули/Модуль dateutil/Модуль dateutil.md",
+    "python/Модули/Модули.md",
+    "python/Модули/Модуль time/Модуль time.md",
+    "python/Модули/Модуль dateutil/Типы объектов dateutil/Типы объектов dateutil.md",
+    "python/Модули/Модуль dateutil/Методы dateutil",
+    "python/Модули/Модуль dateutil/Типы объектов dateutil/Untitled",
+    "python/Модули/Модуль dateutil/Untitled.md",
+    "python/Модули/Модуль dateutil/Типы объектов dateutil",
+    "Linux/Накатывание модулей на python.md",
     "python/Модули/Модуль decimal.md",
-    "python/Модули/Модуль fractions.md",
-    "python/Типы объектов/str (Строки).md",
-    "python/Типы объектов/int (целочисленные).md",
-    "python/Типы объектов/dict (словари).md",
-    "python/Типы объектов/bool (бинарные).md",
-    "python/Типы объектов/Типы объектов.md",
-    "python/Типы объектов/tuple (кортежи).md",
-    "python/Модули/Untitled",
+    "python/Модули/Модуль dateutil",
+    "python/Модули/Модуль datetime/Типы datetime/timedelta (разница во времени).md",
+    "python/Модули/Модуль calendar/Методы calendar/monthrange().md",
+    "python/Модули/Модуль calendar/Методы calendar/prmonth() prcal().md",
+    "python/Модули/Модуль calendar/Методы calendar/leapdays().md",
+    "python/Модули/Модуль calendar/Методы calendar/month().md",
+    "python/Модули/Модуль calendar/Методы calendar/monthcalendar().md",
+    "python/Модули/Модуль calendar/Методы calendar/firstweekday().md",
+    "python/Модули/Модуль calendar/Модуль calendar.md",
+    "python/Модули/Модуль calendar/Методы calendar/weekdays().md",
+    "python/Модули/Модуль calendar/Методы calendar/setfirstweekend().md",
+    "python/Модули/Модуль calendar/Методы calendar/isleap().md",
+    "python/Модули/Модуль time/Типы данных/struct_time.md",
+    "python/Модули/Модуль calendar/Методы calendar/calendar().md",
+    "python/Модули/Модуль time/Методы time/ctime().md",
+    "python/Модули/Модуль calendar/Методы calendar",
+    "python/Модули/Модуль calendar",
+    "python/Модули/Модуль time/Методы time",
+    "python/Модули/Модуль time/Типы данных",
+    "python/Модули/Модуль time",
     "python/Модули/Модуль datetime/Методы datetime",
-    "python/Модули/Модуль datetime/Типы datetime",
-    "python/Модули/Модуль datetime",
     "Пикчи/Pasted image 20240419131632.png",
     "Пикчи/Pasted image 20240417181003.png",
-    "python/Операторы",
-    "Vlad-s_program_database",
-    "Untitled.canvas",
-    "pytthon/Файлы",
-    "Linux",
-    "pytthon/Модули/Модуль functools",
-    "pytthon/Изменяемы Неизменяемые"
+    "Untitled.canvas"
   ]
 }

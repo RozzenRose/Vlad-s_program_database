@@ -1,4 +1,4 @@
-#модуль #functools
+#модуль #functools #python
 
 Подключение:
 ```python

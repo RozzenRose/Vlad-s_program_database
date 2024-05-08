@@ -1,7 +1,7 @@
-Модуль #datetime
+Модуль #datetime #python #strftime #strftime
 
 
-Используется для более гибкого перевода объектов типа `date` и `tiem` или `datetime` а объекты типа `str`
+Используется для более гибкого перевода объектов типа `date` и `tiem` или `datetime` в объекты типа `str`
 Пример: 
 ```python
 from datetime import date, time
