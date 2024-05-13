@@ -16,13 +16,14 @@ rows = csv.DictReader(file, delimiter=';', quotechar='"', fieldnames=fieldnames)
 `DictWriter` позволяет писать содержимое словарей в файлы в формате `CSV`
 ```python
 import csv
-writer = csv.DictWriter(file, fieldnames=, delimiter=';', quotechar='"', quoting=)
+writer = csv.DictWriter(file, fieldnames=, delimiter=';', quotechar='"', quoting=, extrasaction='raise'/'ignor')
 ```
 - `file` - название файла
 - `delimiter` - межэлементный разделитель, по умолчанию `','`
 - `quotechar` — односимвольная строка, используемая для кавычек в полях, содержащих специальные символы, по умолчанию имеет значение `'"'`.
-- `fieldnames` - можно самостоятельно задать заголовки для столбцов, если те, которые есть в файле тебя не устраивают
+- `fieldnames` - определяет порядок, в котором столбцы будут занесены в файл
 - `quoting` - выделяет в символ указанный в параметре `quotechar` те элементы, которые будут указаны специальным атрибутом
+- `extrasacrion` - определяет реакцию объекта на ситуацию, когда в данных, которые мы пытаемся записать в файл попадается ключ, которого нет в списке, который был передан параметру `fieldnames`, если он вообще был использован. `rise` вызовет исключение `ValueError`, `ignor` просто добавит новый ключ в файл и все данные, которые этим ключом подписаны
 
 Атрибуты для `quoting`:
 - `QUOTE_ALL`: указывает объектам записи указывать все поля
@@ -139,6 +140,20 @@ with open('products.csv', encoding='utf-8') as file:
 {'id': 'Кружка', 'first_name': '199', 'last_name': 'ФИНСТИЛТ'}
 {'id': 'Тарелка, блюдце', 'first_name': '269', 'last_name': 'ЭВЕРЕНС'}
 ```
+Но вообще, мы и можем вызвать `fieldnames` в качестве атрибута для объекта `csv.DictReader`, он вернет список ключей:
+```python
+import csv
+
+# Используем DictReader для чтения данных
+with open('products.csv', encoding='utf-8') as file:
+    rows = csv.DictReader(file)
+
+print(rows.fieldnames)
+```
+```
+['id', 'first_name', 'last_name']
+```
+
 
 #### Пример записи:
 Рассмотрим приведенный ниже код:
@@ -172,4 +187,52 @@ for row in data:
 можно написать:
 ```python
 writer.writerows(data)
+```
+#### Пример использования параметра fieldnames
+Допустим у нас есть вот такой вот файл под названием `students_counts.csv`
+```
+year,5-Б,3-Б,8-А,2-Г,7-Б,1-Б,3-Г,3-А,2-В,6-Б,6-А,8-Б,8-Г,11-А,2-А,7-А,5-А,2-Б,10-А,11-Б,8-В,4-А,7-В,3-В,1-А,9-А,11-В 2000,19,15,18,29,19,17,26,29,28,30,26,27,27,22,29,19,27,20,16,18,15,27,19,29,22,20,23 2001,21,30,22,19,26,20,24,27,20,30,24,30,29,21,20,19,29,27,23,25,30,30,23,22,22,18,22
+```
+А нужно получить файл `student_counts.csv`, в котором классы будет отсортированы и все числа по годом будет отсортированы соответственно. То есть под каждым классом должны остаться его цифры.
+Запустим следующий код:
+```python
+import csv
+
+def key_func(grade):
+    number, letter = grade.split('-')
+    return int(number), letter
+
+with open('student_counts.csv', encoding='utf-8') as file:
+    reader = csv.DictReader(file)
+    columns = ['year'] + sorted(reader.fieldnames[1:], key=key_func)
+    rows = list(reader)
+
+with open('sorted_student_counts.csv', 'w', encoding='utf-8') as file:
+    writer = csv.DictWriter(file, fieldnames=columns)
+    writer.writeheader()
+    writer.writerows(rows)
+```
+В этом примере мы считали весь файл в объект `DictReader`, после чего вытащили из него оглавление всех столбцов, кроме первого(потому, что там надпись`year`) и отсортировали их, после чего в начало опять вернули строку `year`. Получившийся список назвали `columns`
+```python
+columns = ['year'] + sorted(reader.fieldnames[1:], key=key_func)
+```
+Затем весь файл преобразован в список и присвоен переменной `rows`
+```python
+rows = list(reader)
+```
+А затем вы открываем файл вывода, вызываем объект `DictWriter` с использованием параметра `fieldname`, к которому присваивается список `columns`. 
+```python
+writer = csv.DictWriter(file, fieldnames=columns)
+```
+После этого применяем `writeheader()` для записи оглавления в файл, а потом просто записываем весь файл
+```python
+writer.writeheader()
+writer.writerows(rows)
+```
+ В итоге мы получим отсортированную табличку
+```
+year,1-А,1-Б,2-А,2-Б,...
+2000,22,17,29,20,...
+2001,22,20,20,27,...
+...
 ```

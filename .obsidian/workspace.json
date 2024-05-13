@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Модули/Модуль CSV/Методы CSV/DictRider().md",
+                "file": "python/Типы объектов/dict (словари).md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#файлы",
+                "query": "tag:#сериализация",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Модули/Модуль CSV/Методы CSV/DictRider().md",
+                "file": "python/Типы объектов/dict (словари).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Модули/Модуль CSV/Методы CSV/DictRider().md",
+                "file": "python/Типы объектов/dict (словари).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Модули/Модуль CSV/Методы CSV/DictRider().md"
+                "file": "python/Типы объектов/dict (словари).md"
               }
             }
           }
@@ -149,42 +149,42 @@
   },
   "active": "ddeab516dd0d29be",
   "lastOpenFiles": [
-    "python/Модули/Модуль CSV/Методы CSV/reader().md",
-    "python/Модули/Модуль CSV/Методы CSV/DictRider().md",
-    "python/Модули/Модуль CSV/Методы CSV/writer().md",
-    "python/Типы объектов/dict (словари).md",
-    "python/Модули/Модуль CSV/Модуль CSV.md",
+    "python/Модули/Модуль JSON/Методы JSON/dump().md",
     "python/Файлы/Открытие файла - open().md",
-    "python/Файлы/Чтение файла.md",
-    "python/Модули/Модуль CSV/Методы CSV",
-    "python/Модули/Модуль CSV/Типы CSV",
+    "python/Файлы/json файлы/Типы данных json.md",
+    "python/Файлы/json файлы/Криллические символы в json.md",
+    "python/Файлы/json файлы/json файлы.md",
+    "python/Встроенные функции/isinstance() - проверка типа.md",
+    "python/Модули/Модули.md",
+    "python/Модули/Модуль JSON/Методы JSON/loads().md",
+    "python/Модули/Модуль JSON/Методы JSON/load().md",
+    "python/Модули/Модуль JSON/Методы JSON/dumps().md",
+    "python/Типы объектов/sys.stdin (поток ввода).md",
+    "python/Модули/Модуль JSON/Модуль JSON.md",
+    "python/try-except.md",
+    "Словарь/Сериализация.md",
+    "python/Файлы/json файлы",
+    "python/Файлы/Untitled.md",
     "python/Файлы/CSV файлы (TSV).md",
-    "python/Модули/Модуль fractions.md",
-    "python/Модули/Модуль locale.md",
-    "python/Модули/Модуль decimal.md",
-    "python/Файлы/Основное о работе с файлами.md",
-    "python/lambda функции.md",
-    "python/Вложенные списки.md",
-    "python/Модули/Модуль calendar/Модуль calendar.md",
-    "python/Модули/Модуль CSV",
-    "python/Модули/Untitled.md",
+    "python/Файлы/json файлы",
     "python/def функции.md",
-    "python/Типы объектов/list (Списки).md",
-    "python/Вло.md",
-    "python/Типы объектов/str (Строки).md",
-    "python/Типы объектов/set (множество).md",
-    "python/Файлы/Кодировка.md",
-    "python/Файлы/Запись в файл.md",
-    "python/Файлы/Закрытие файла.md",
-    "python/Файлы/Методы для работы с файлами/Методы для работы с файлами.md",
-    "python/Файлы/Методы для работы с файлами/seek() - перемещение курсора.md",
+    "python/Вложенные списки.md",
+    "python/Модули/Модуль CSV/Специальные объекты/writer().md",
+    "python/Модули/Модуль CSV/Специальные объекты/reader().md",
+    "python/Модули/Модуль CSV/Специальные объекты/DictRider().md",
+    "python/Модули/Модуль CSV/Модуль CSV.md",
+    "python/Модули/Модуль datetime/Типы datetime/timedelta (разница во времени).md",
+    "python/Модули/Модуль datetime/Типы datetime/datetime (время и дата).md",
+    "python/Модули/Модуль JSON/Методы JSON",
+    "python/Модули/Модуль JSON/Untitled.md",
+    "python/Модули/Модуль calendar/Модуль calendar.md",
+    "python/Модули/Модуль JSON",
+    "Словарь",
+    "python/Модули/Модуль CSV/Специальные объекты",
+    "python/Модули/Модуль CSV/Типы CSV",
+    "python/Модули/Модуль CSV",
     "python/Файлы/Методы для работы с файлами",
     "python/Модули/Модуль dateutil/Методы dateutil",
-    "python/Модули/Модуль dateutil/Типы объектов dateutil/Untitled",
-    "python/Модули/Модуль dateutil/Типы объектов dateutil",
-    "python/Модули/Модуль dateutil",
-    "python/Модули/Модуль calendar/Методы calendar",
-    "python/Модули/Модуль calendar",
     "Пикчи/Pasted image 20240419131632.png",
     "Пикчи/Pasted image 20240417181003.png",
     "Untitled.canvas"
