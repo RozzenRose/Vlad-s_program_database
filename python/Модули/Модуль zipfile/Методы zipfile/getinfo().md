@@ -1,4 +1,4 @@
-#python #zip #файлы #работа_с_файлами #infolist #чтение_архива #getinfo
+#python #zip #файлы #работа_с_файлами #infolist #чтение_архива #getinfo #метод
 
 
 Метод позволяет получить информацию о конкретном файле по его имени в архиве.
@@ -8,8 +8,7 @@
 from zipfile import ZipFile
 
 with ZipFile('test.zip') as zip_file:
-    info = zip_file.namelist()                # получаем названия всех файлов архива
-    last_file = zip_file.getinfo(info[-4])    # получаем информацию об отдельном файле
+    last_file = zip_file.getinfo('image_util.py')    # получаем информацию об отдельном файле
     print(last_file.file_size)
     print(last_file.compress_size)
     print(last_file.filename)

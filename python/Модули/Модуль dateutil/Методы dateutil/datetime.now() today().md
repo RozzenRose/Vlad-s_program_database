@@ -1,4 +1,4 @@
-#модуль #datetime #python #dateutil #now #today #date
+#datetime #python #dateutil #now #today #date #метод
 
 
 `datetime()` вернет текущую дату и время

@@ -1,5 +1,7 @@
 Модуль #datetime #python 
 
 
-[[strftime()]] - форматирование вывода для объектов типа `date` и `time`
-[[fromisoformat()]]
+[[strftime()]] - преобразует `datetime` объекты в строку
+[[strptime()]] - преобразует строку в объект datetime
+[[fromisoformat()]] - преобразовывает строку с датой и временем в формате ISO в `datetime` объект
+[[isoformat()]] - преобразует объекты типа `datetime` в строку с датой и временем в формате ISO

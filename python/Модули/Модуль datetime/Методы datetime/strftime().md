@@ -1,5 +1,5 @@
-Модуль #datetime #python #strftime #strftime
-
+Модуль #datetime #python #strftime #strftime #метод
+ 
 
 Используется для более гибкого перевода объектов типа `date` и `tiem` или `datetime` в объекты типа `str`
 Пример: 
@@ -50,7 +50,7 @@ Tuesday 10, August 2021
 | `%c`   | Дата и время                                                                                                               | Tue Aug 16 21:30:00 1988 (en_US);  <br>03.01.2019 23:18:32 (ru_RU)                                                 |
 | `%x`   | Дата                                                                                                                       | 08/16/88 (None); 08/16/1988 (en_US);  <br>03.01.2019 (ru_RU)                                                       |
 | `%X`   | Время                                                                                                                      | 21:30:00                                                                                                           |
-Можно локализировать при помощи [[Модуль locale]]
+Можно локализировать при помощи модуля `locate`
 ```python
 from datetime import date
 import locale

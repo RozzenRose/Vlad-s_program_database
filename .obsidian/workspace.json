@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b2c3a8df3e52b5a8",
+        "id": "702201cdc3f0d140",
         "type": "tabs",
         "children": [
           {
-            "id": "ddeab516dd0d29be",
+            "id": "04b2a2164aba1775",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Почитать.md",
+                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#виртуальное_адресное_пространство",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Почитать.md",
+                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Почитать.md",
+                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Почитать.md"
+                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти.md"
               }
             }
           }
@@ -147,45 +147,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ddeab516dd0d29be",
+  "active": "04b2a2164aba1775",
   "lastOpenFiles": [
-    "README.md",
-    "python/Модули/Модуль zipfile/Методы zipfile/Методы zipfile.md",
-    "python/Модули/Модуль zipfile/Модуль zipfile.md",
-    "python/Модули/Модуль zipfile/Методы zipfile/open() read() decode() чтение.md",
-    "python/Модули/Модуль zipfile/Методы zipfile/Extract() Extractall().md",
-    "python/Модули/Модуль zipfile/Методы zipfile/write() запись.md",
-    "test_new.zip",
-    "python/Модули/Модуль zipfile/Методы zipfile/printdir().md",
-    "python/Модули/Модуль zipfile/Методы zipfile/namelist().md",
-    "python/Модули/Модуль zipfile/Методы zipfile/infolist() is_dir().md",
-    "python/Модули/Модуль zipfile/Методы zipfile/getinfo().md",
-    "python/Модули/Модули.md",
-    "Словарь/Архивация.md",
-    "Словарь/Сериализация.md",
+    "python/Оптимизация и механика Python/Устройство памяти Python/Структура памяти в Python.md",
+    "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти.md",
+    "python/Оптимизация и механика Python/Устройство памяти Python/Hardware'гая часть.md",
+    "python/Оптимизация и механика Python/Устройство памяти Python",
+    "python/Оптимизация и механика Python",
+    "Пикчи/Pasted image 20240521165002.png",
+    "python/Вложенные списки.md",
     "Словарь/Словарь.md",
-    "python/Типы объектов/Типы объектов.md",
-    "python/Типы объектов/sys.stdout (поток вывода).md",
-    "python/Модули/Модуль datetime/Модуль datetime.md",
-    "python/Файлы/json файлы/json файлы.md",
-    "python/Файлы/json файлы/Кириллические символы в json.md",
-    "python/Файлы/json файлы/Типы данных json.md",
-    "python/Файлы/zip файлы/zip файлы.md",
-    "python/Модули/Модуль zipfile/Методы zipfile",
-    "python/Модули/Модуль zip/Методы.md",
-    "python/Файлы/Основное о работе с файлами.md",
-    "test.zip",
-    "Файлы/test 1.zip",
-    "Файлы/test.zip",
-    "Файлы",
-    "Пикчи/Pasted image 20240516125950.png",
-    "python/Модули/Модуль JSON/Модуль JSON.md",
+    "Словарь/Виртуальное адресное пространство.md",
+    "Словарь/Процесс.md",
+    "Словарь/Сериализация.md",
+    "Словарь/Архивация.md",
+    "Почитать.md",
+    "Пикчи/Pasted image 20240521143745.png",
+    "Пикчи/Pasted image 20240521142631.png",
     "python/Модули/Модуль time/Модуль time.md",
-    "python/Модули/Модуль zipfile",
     "python/Модули/Модуль time/Типы данных/struct_time.md",
-    "python/Файлы/zip файлы",
-    "python/Файлы/json файлы",
-    "python/Файлы/json файлы",
+    "python/Модули/Модуль time/Методы time/mktime().md",
+    "python/Модули/Модуль decimal/decimal (числа с плавающей точкой).md",
+    "python/Модули/Модуль decimal/Модуль decimal.md",
+    "struct time.md",
+    "python/Модули/Модуль OS/Модуль OS.md",
+    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль os.sys.md",
+    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодули OS.md",
+    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль os.stat.md",
+    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль os.path.md",
+    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль os.error(OSError).md",
+    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль os.environ.md",
+    "python/Типы объектов/sys.stdin (поток ввода).md",
+    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль se.environ",
+    "python/Модули/Модуль OS/Подмодули модуля OS",
+    "python/Модули/Модули.md",
+    "python/Модули/Модуль calendar/Модуль calendar.md",
+    "python/Модули/Модуль OS",
+    "python/Файлы/pikle файлы",
+    "python/Модули/Модуль pickle/Методы pickle",
+    "python/Модули/Модуль pickle",
+    "python/Модули/Модуль decimal",
+    "python/Модули/Модуль fraction/Методы fraction",
+    "Пикчи/Pasted image 20240516125950.png",
     "Пикчи/Pasted image 20240419131632.png",
     "Пикчи/Pasted image 20240417181003.png",
     "Untitled.canvas"

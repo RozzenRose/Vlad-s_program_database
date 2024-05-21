@@ -1,4 +1,4 @@
-Модуль #datetime #python #strftime #strptime
+Модуль #datetime #python #strptime #метод
 
 Преобразовывать строку в `datetime` руками через метод `split()` довольно неудобно и нужно нагородить кучу кода. `strptime()` позволяет сделать это дольно удобно.
 ```python

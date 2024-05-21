@@ -12,6 +12,8 @@ import calendar
 
 Документация:
 [calendar — General calendar-related functions — Python 3.8.19 documentation](https://docs.python.org/3.8/library/calendar.html)
+
+[[Методы calendar]]
 ### Атрибуты
 это как методы, но лучше)
 #### calendar.day_name дни недели
