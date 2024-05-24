@@ -1,4 +1,4 @@
-#calendar #python #метод #isleap
+#calendar #Python #метод #isleap
 
 Возвращает `True` если переданный в качестве аргумента год является високосным, и `False` если нет
 ```python

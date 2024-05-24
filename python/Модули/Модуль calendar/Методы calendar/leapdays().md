@@ -1,4 +1,4 @@
-#calendar #python #метод #leapdays
+#calendar #Python #метод #leapdays
 
 
 Вернет количество високосных лет в диапазоне от `y1` года до `y2` года

@@ -1,4 +1,4 @@
-#calendar #python #метод #firstweekday
+#calendar #Python #метод #firstweekday
 
 
 Возвращает номер дня недели, который сейчас установлен в качестве дня начала недели

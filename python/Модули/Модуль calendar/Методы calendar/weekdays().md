@@ -1,4 +1,4 @@
-#calendar #python #метод #weekdays
+#calendar #Python #метод #weekdays
 
 
 Вернет день недели в виде целого числа (0 - понедельник ... 6 - воскресенье)

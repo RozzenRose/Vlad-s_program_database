@@ -1,4 +1,4 @@
-#calendar #python #метод #promonth #prcal
+#calendar #Python #метод #promonth #prcal
 
 
 `prmonth()` - напечатает календарь указанного месяца, который возвращает функция [[month()]]

@@ -1,4 +1,4 @@
-#calendar #python #метод #calendar 
+#calendar #Python #метод #calendar 
 
 
 Вернет многострочную строку, содержащую календарь на весь год

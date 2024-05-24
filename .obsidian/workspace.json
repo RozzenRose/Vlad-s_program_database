@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти.md",
+                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Структура памяти в Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#виртуальное_адресное_пространство",
+                "query": "tag:#модуль",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти.md",
+                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Структура памяти в Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти.md",
+                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Структура памяти в Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти.md"
+                "file": "python/Оптимизация и механика Python/Устройство памяти Python/Структура памяти в Python.md"
               }
             }
           }
@@ -147,50 +147,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "04b2a2164aba1775",
+  "active": "0d2821d8317e81d4",
   "lastOpenFiles": [
+    "Пикчи/Pasted image 20240524170227.png",
+    "python/Оптимизация и механика Python/Устройство памяти Python/Механизмы очистки памяти.md",
     "python/Оптимизация и механика Python/Устройство памяти Python/Структура памяти в Python.md",
-    "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти.md",
+    "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти в Python.md",
+    "python/Оптимизация и механика Python/Изменяемые и неизменяемы типы.md",
+    "python/Оптимизация и механика Python/Оптимизация и механика Python.md",
+    "python/Оптимизация и механика Python/Переменные окружения ОС.md",
+    "python/Оптимизация и механика Python/Переменные в Python/Интернирование объектов в Python.md",
+    "python/Оптимизация и механика Python/Переменные в Python/Идентичности переменных. Оператор is.md",
+    "python/Оптимизация и механика Python/Переменные в Python/Переменные в Python.md",
+    "python/Типы объектов/Методы sys.md",
+    "python/Модули/Модуль gc.md",
+    "python/Модули/Модуль locale.md",
+    "Пикчи/Pasted image 20240524162419.png",
+    "Пикчи/Pasted image 20240524161704.png",
+    "python/Модули/Модуль OS/Модуль OS.md",
+    "python/Модули/Модуль OS/Ходовые методы/Самые ходовые методы.md",
     "python/Оптимизация и механика Python/Устройство памяти Python/Hardware'гая часть.md",
+    "python/Оптимизация и механика Python/Переменные в Python/Идентификаторы переменных. Встроенная функция id().md",
+    "Почитать.md",
+    "python/Модули/Модуль math.md",
+    "python/Модули/Модуль asizeof.md",
+    "python/Типы объектов/Типы объектов.md",
+    "python/Типы объектов/sys.stdin (поток ввода).md",
+    "python/Модули/Модуль copy/Модуль copy.md",
+    "python/Типы объектов/Изменяемые/dict (словари).md",
+    "python/Типы объектов/Изменяемые/set (множество).md",
+    "python/Типы объектов/Изменяемые/list (Списки).md",
+    "python/Модули/Модуль copy",
+    "python/Модули/Модуль fraction/Untitled",
+    "python/Типы объектов/Неизменяемые",
+    "python/Типы объектов/Изменяемые",
+    "Пикчи/Pasted image 20240523130654.png",
+    "Пикчи/Pasted image 20240523123212.png",
+    "Пикчи/Pasted image 20240523122953.png",
+    "Пикчи/Pasted image 20240523122926.png",
+    "Пикчи/Pasted image 20240523122611.png",
+    "Пикчи/Pasted image 20240523120413.png",
+    "Пикчи/Pasted image 20240523120340.png",
+    "Пикчи/Pasted image 20240523120051.png",
+    "python/Оптимизация и механика Python/Переменные в Python",
+    "python/Оптимизация и механика Python/Переменные окружения",
+    "python/Модули/Модуль OS/Ходовые методы",
     "python/Оптимизация и механика Python/Устройство памяти Python",
     "python/Оптимизация и механика Python",
-    "Пикчи/Pasted image 20240521165002.png",
-    "python/Вложенные списки.md",
-    "Словарь/Словарь.md",
-    "Словарь/Виртуальное адресное пространство.md",
-    "Словарь/Процесс.md",
-    "Словарь/Сериализация.md",
-    "Словарь/Архивация.md",
-    "Почитать.md",
-    "Пикчи/Pasted image 20240521143745.png",
-    "Пикчи/Pasted image 20240521142631.png",
-    "python/Модули/Модуль time/Модуль time.md",
-    "python/Модули/Модуль time/Типы данных/struct_time.md",
-    "python/Модули/Модуль time/Методы time/mktime().md",
-    "python/Модули/Модуль decimal/decimal (числа с плавающей точкой).md",
-    "python/Модули/Модуль decimal/Модуль decimal.md",
-    "struct time.md",
-    "python/Модули/Модуль OS/Модуль OS.md",
-    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль os.sys.md",
-    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодули OS.md",
-    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль os.stat.md",
-    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль os.path.md",
-    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль os.error(OSError).md",
-    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль os.environ.md",
-    "python/Типы объектов/sys.stdin (поток ввода).md",
     "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль se.environ",
-    "python/Модули/Модуль OS/Подмодули модуля OS",
-    "python/Модули/Модули.md",
-    "python/Модули/Модуль calendar/Модуль calendar.md",
-    "python/Модули/Модуль OS",
-    "python/Файлы/pikle файлы",
-    "python/Модули/Модуль pickle/Методы pickle",
-    "python/Модули/Модуль pickle",
-    "python/Модули/Модуль decimal",
-    "python/Модули/Модуль fraction/Методы fraction",
-    "Пикчи/Pasted image 20240516125950.png",
-    "Пикчи/Pasted image 20240419131632.png",
-    "Пикчи/Pasted image 20240417181003.png",
     "Untitled.canvas"
   ]
 }

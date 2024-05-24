@@ -55,18 +55,25 @@
         "a": 1,
         "rgb": 11206906
       }
+    },
+    {
+      "query": "#механика",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.80989583333333,
-  "lineSizeMultiplier": 1.75885416666667,
+  "nodeSizeMultiplier": 1.73333333333333,
+  "lineSizeMultiplier": 1.88645833333333,
   "collapse-forces": false,
-  "centerStrength": 0.40625,
+  "centerStrength": 0.447916666666667,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 397,
-  "scale": 0.1316872427983641,
+  "scale": 0.1316872427983693,
   "close": false
 }

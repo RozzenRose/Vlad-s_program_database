@@ -1,4 +1,4 @@
-#calendar #python #метод #setfirstweekend
+#calendar #Python #метод #setfirstweekend
 
 
 По умолчанию в модуле `calendar` неделя начинается с понедельника с индексом `1`,  а заканчивается воскресеньем с индексом `6`

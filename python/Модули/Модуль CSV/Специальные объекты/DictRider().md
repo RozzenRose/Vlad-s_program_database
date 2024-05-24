@@ -1,4 +1,4 @@
-#python #файлы #работа_с_файлами #python #CSV #TSV #DictRider #специальный_обект #CSV_dict #DictReader #DictWriter
+#python #файлы #работа_с_файлами #Python #CSV #TSV #DictRider #специальный_обект #CSV_dict #DictReader #DictWriter
 
 
 Специальный объект `DictRider` является частью [[Модуль CSV|модуля CSV]]. И делится в свою очередь на два подобъекта. `DictWriter` и `DictReader`

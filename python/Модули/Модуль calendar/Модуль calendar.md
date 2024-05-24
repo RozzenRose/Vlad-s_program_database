@@ -1,4 +1,4 @@
-#модуль #calendar #python #day_name #day_addr #month_name #month_addt #атрибуты_дней_недели
+#модуль #calendar #Python #day_name #day_addr #month_name #month_addt #атрибуты_дней_недели
 
 Ну конечно, этот модуль содержит полезные типы данных и методы для работы с календарем, а ты че думал?
 

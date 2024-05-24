@@ -1,4 +1,4 @@
-Модуль #datetime #python 
+Модуль #datetime #Python 
 
 [[datetime (время и дата)]]
 [[date (дата)]]

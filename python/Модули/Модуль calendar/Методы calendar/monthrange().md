@@ -1,4 +1,4 @@
-#calendar #python #метод #monthrange 
+#calendar #Python #метод #monthrange 
 
 Возвращает день недели первого дня месяца и количество дней в месяце в объекте типа `tuple` для указанного года и месяца
 ```python
