@@ -52,3 +52,22 @@ next_tuesday = dt + relativedelta(weekday=TU(1))
 print(next_tuesday)  # Выведет дату первого вторника после 8 мая 2024 года
 ```
 А `TU(-1)` вернет предыдущий вторник, `TU(2)` вернет второй вторник из будущего и тд.
+
+Есть еще относительно полезные методы:
+`datetime()` вернет текущую дату и время
+`today()` вернет текущую дату
+```python
+# нужно импортировать модуль datetime
+from datetime import datetime, date
+from dateutil.relativedelta import relativedelta, MO, TU, WE, TH, FR, SA, SU
+
+# Создание нескольких объектов datetime для работы
+dt_now = datetime.now()
+print("Дата и время прямо сейчас:", dt_now)
+dt_today = date.today()
+print("Дата сегодня:", dt_today)
+```
+```
+Дата и время прямо сейчас: 2021-02-06 12:06:58.192574 
+Дата сегодня: 2021-02-06
+```

@@ -1,4 +1,4 @@
-Модуль #datetime #python #strftime #strftime #метод
+Модуль #datetime #python #strftime #метод
  
 
 Используется для более гибкого перевода объектов типа `date` и `tiem` или `datetime` в объекты типа `str`
