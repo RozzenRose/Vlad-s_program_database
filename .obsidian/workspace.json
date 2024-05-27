@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Типы объектов/Неизменяемые/str (Строки).md",
+                "file": "python/Модули/Модуль collections/OrderedDict.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Типы объектов/Неизменяемые/str (Строки).md",
+                "file": "python/Модули/Модуль collections/OrderedDict.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Типы объектов/Неизменяемые/str (Строки).md",
+                "file": "python/Модули/Модуль collections/OrderedDict.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Типы объектов/Неизменяемые/str (Строки).md"
+                "file": "python/Модули/Модуль collections/OrderedDict.md"
               }
             }
           }
@@ -149,33 +149,35 @@
   },
   "active": "04b2a2164aba1775",
   "lastOpenFiles": [
-    "python/Типы объектов/Изменяемые/set (множество).md",
-    "python/Модули/Модуль datetime/Методы datetime/Методы datetime.md",
-    "python/Модули/Модуль datetime/Методы datetime/strptime().md",
-    "python/Модули/Модуль datetime/Методы datetime/strftime().md",
-    "python/Модули/Модуль datetime/Методы datetime/isoformat().md",
-    "python/Модули/Модуль datetime/Методы datetime/fromisoformat().md",
+    "python/Модули/Модуль collections/namedtuple.md",
+    "python/Модули/Модуль collections/defaultdict.md",
+    "python/Модули/Модуль collections/OrderedDict.md",
+    "python/Модули/Модуль collections/Модуль collections.md",
+    "python/Файлы/Кодировка.md",
     "python/Модули/Модуль datetime/Типы datetime/Типы объектов datetime.md",
     "python/Модули/Модуль datetime/Типы datetime/tzinfo.md",
     "python/Модули/Модуль datetime/Типы datetime/timedelta (разница во времени).md",
     "python/Модули/Модуль datetime/Типы datetime/time (время).md",
     "python/Модули/Модуль datetime/Типы datetime/datetime (время и дата).md",
     "python/Модули/Модуль datetime/Типы datetime/date (дата).md",
-    "python/Типы объектов/Неизменяемые/bool (бинарные).md",
-    "python/Модули/Модуль dateutil/Методы dateutil/relativdelta().md",
-    "python/Модули/Модуль dateutil/Методы dateutil/datetime.now() today().md",
-    "python/Модули/Модуль dateutil/Методы dateutil/parser().md",
-    "python/Модули/Модуль dateutil/Модуль dateutil.md",
-    "python/Модули/Модуль dateutil/Методы dateutil/rrule() rruleset().md",
-    "python/Типы объектов/Неизменяемые/Неизменяемыe типы объектов.md",
-    "python/Типы объектов/Неизменяемые/frozenset (постоянное множество).md",
-    "python/Оптимизация и механика Python/Устройство памяти Python/Структура памяти в Python.md",
-    "Пикчи/Pasted image 20240524170227.png",
-    "python/Оптимизация и механика Python/Устройство памяти Python/Механизмы очистки памяти.md",
+    "python/Модули/Модуль datetime/Модуль datetime.md",
+    "python/Модули/Модули.md",
+    "python/Типы объектов/Неизменяемые/str (Строки).md",
+    "python/Модули/Модуль CSV/Специальные объекты/reader().md",
+    "python/Модули/Модуль pickle/Методы pickle/load().md",
+    "python/Модули/Модуль pickle/Методы pickle/loads().md",
+    "python/Модули/Модуль calendar/Модуль calendar.md",
+    "python/Модули/Модуль calendar/Untitled",
+    "python/Модули/Модуль collections",
+    "Linux/Накатывание модулей на python.md",
+    "python/Типы объектов/Типы объектов.md",
+    "python/Python.md",
     "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти в Python.md",
-    "python/Оптимизация и механика Python/Изменяемые и неизменяемы типы.md",
-    "python/Оптимизация и механика Python/Оптимизация и механика Python.md",
-    "python/Оптимизация и механика Python/Переменные окружения ОС.md",
+    "python/Типы объектов/Изменяемые/set (множество).md",
+    "python/Модули/Модуль datetime/Методы datetime/Методы datetime.md",
+    "python/Модули/Модуль datetime/Методы datetime/strptime().md",
+    "python/Модули/Модуль datetime/Методы datetime/strftime().md",
+    "Пикчи/Pasted image 20240524170227.png",
     "Пикчи/Pasted image 20240524162419.png",
     "Пикчи/Pasted image 20240524161704.png",
     "python/Модули/Модуль copy",
@@ -193,8 +195,6 @@
     "python/Оптимизация и механика Python/Переменные окружения",
     "python/Модули/Модуль OS/Ходовые методы",
     "python/Оптимизация и механика Python/Устройство памяти Python",
-    "python/Оптимизация и механика Python",
-    "python/Модули/Модуль OS/Подмодули модуля OS/Подмодуль se.environ",
     "Untitled.canvas"
   ]
 }
