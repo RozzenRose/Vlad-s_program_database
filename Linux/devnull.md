@@ -1,4 +1,0 @@
-#Linux
-
-
-> /dev/null 
