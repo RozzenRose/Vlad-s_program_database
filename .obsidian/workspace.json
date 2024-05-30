@@ -11,12 +11,8 @@
             "id": "04b2a2164aba1775",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python/Модули/Модуль collections/Counter/Методы Counter.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Модули/Модуль collections/Counter/Методы Counter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Модули/Модуль collections/Counter/Методы Counter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "python/Модули/Модуль collections/Counter/Методы Counter.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -149,10 +141,10 @@
   },
   "active": "04b2a2164aba1775",
   "lastOpenFiles": [
+    "python/Модули/Модуль collections/Counter/Методы Counter.md",
     "ю.txt",
     "New Text Document.txt",
     "python/Модули/Модуль collections/Counter/Counter.md",
-    "python/Модули/Модуль collections/Counter/Методы Counter.md",
     "python/Модули/Модуль collections/Модуль collections.md",
     "python/Модули/Модуль collections/Counter",
     "python/Типы объектов/Изменяемые/dict (словари).md",
@@ -194,7 +186,6 @@
     "Пикчи/Pasted image 20240523120413.png",
     "Пикчи/Pasted image 20240523120340.png",
     "python/Оптимизация и механика Python/Переменные в Python",
-    "python/Оптимизация и механика Python/Переменные окружения",
     "Untitled.canvas"
   ]
 }
