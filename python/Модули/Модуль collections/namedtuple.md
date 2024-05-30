@@ -1,4 +1,4 @@
-#collections #Python #именнованныe_кортежи #namedtuple #объект
+#collections #Python #именнованныe_кортежи #namedtuple #объект #_fields #_fields_default #_make #_replace #_asdict
 
 
 Именованные кортежи `namedtuple` - это подтип обычных кортежей в Python. У них те же функции, что и у обычных, но их значения можно получать как с помощью индекса, так и с помощью имени через точку.

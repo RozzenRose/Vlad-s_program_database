@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Модули/Модуль collections/OrderedDict.md",
+                "file": "python/Модули/Модуль collections/Counter/Методы Counter.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fro",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Модули/Модуль collections/OrderedDict.md",
+                "file": "python/Модули/Модуль collections/Counter/Методы Counter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Модули/Модуль collections/OrderedDict.md",
+                "file": "python/Модули/Модуль collections/Counter/Методы Counter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Модули/Модуль collections/OrderedDict.md"
+                "file": "python/Модули/Модуль collections/Counter/Методы Counter.md"
               }
             }
           }
@@ -149,10 +149,15 @@
   },
   "active": "04b2a2164aba1775",
   "lastOpenFiles": [
+    "New Text Document.txt",
+    "python/Модули/Модуль collections/Counter/Counter.md",
+    "python/Модули/Модуль collections/Counter/Методы Counter.md",
+    "python/Модули/Модуль collections/Модуль collections.md",
+    "python/Модули/Модуль collections/Counter",
+    "python/Типы объектов/Изменяемые/dict (словари).md",
     "python/Модули/Модуль collections/namedtuple.md",
     "python/Модули/Модуль collections/defaultdict.md",
     "python/Модули/Модуль collections/OrderedDict.md",
-    "python/Модули/Модуль collections/Модуль collections.md",
     "python/Файлы/Кодировка.md",
     "python/Модули/Модуль datetime/Типы datetime/Типы объектов datetime.md",
     "python/Модули/Модуль datetime/Типы datetime/tzinfo.md",
@@ -173,10 +178,6 @@
     "python/Типы объектов/Типы объектов.md",
     "python/Python.md",
     "python/Оптимизация и механика Python/Устройство памяти Python/Устройство памяти в Python.md",
-    "python/Типы объектов/Изменяемые/set (множество).md",
-    "python/Модули/Модуль datetime/Методы datetime/Методы datetime.md",
-    "python/Модули/Модуль datetime/Методы datetime/strptime().md",
-    "python/Модули/Модуль datetime/Методы datetime/strftime().md",
     "Пикчи/Pasted image 20240524170227.png",
     "Пикчи/Pasted image 20240524162419.png",
     "Пикчи/Pasted image 20240524161704.png",
@@ -194,7 +195,6 @@
     "python/Оптимизация и механика Python/Переменные в Python",
     "python/Оптимизация и механика Python/Переменные окружения",
     "python/Модули/Модуль OS/Ходовые методы",
-    "python/Оптимизация и механика Python/Устройство памяти Python",
     "Untitled.canvas"
   ]
 }

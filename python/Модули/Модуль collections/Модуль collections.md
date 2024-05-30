@@ -4,7 +4,7 @@
 Python содержит встроенный модуль `collections`, который содержит специализированные типы коллекций, альтернативных традиционным `tuple`, `list`, `dict`:
 - [[namedtuple]]
 - [[defaultdict]]
-- `OrderedDict`
-- `Counter`
+- [[OrderedDict]]
+- [[Counter]]
 - `ChainMap`
 - `deque`
