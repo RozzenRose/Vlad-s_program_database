@@ -158,3 +158,24 @@ print(counter1 | counter2)
 Counter({'p': 10, 's': 8, 'i': 2, 'm': 1})
 Counter({'s': 40, 'i': 10, 'p': 10, 'm': 3})
 ```
+
+### атрибут `__dict__`
+Объекты типа `Counter`, аналогично объектам типа `OrderedDict`, содержат дополнительный атрибут `__dict__`, который используется для динамического наделения объектов дополнительным функционалом.
+```python
+from collections import Counter
+
+counter = Counter(green=10, red=25, blue=5)
+
+print(counter.__dict__)
+
+counter.__dict__['min_value'] = lambda: min(counter.values())
+counter.max_value = lambda: max(counter.values())
+
+print(counter.min_value())
+print(counter.max_value())
+```
+```
+{}
+5
+25
+```
