@@ -118,32 +118,23 @@ from collections import Counter
 
 letters = Counter('mississippi')
 
-# обращение по ключу
-print(letters['p'])
+print(letters['p']) #обращение к ключам напрямую
 print(letters['i'])
-
 print()
 
-# перебор ключей напрямую
-for letter in letters:
+for letter in letters:  # перебор ключей напрямую
     print(letter, '->', letters[letter])
-
 print()
 
-# перебор ключей через метод
-for letter in letters.keys():
+for letter in letters.keys(): # перебор ключей через метод
     print(letter, '->', letters[letter])
-
 print()
 
-# перебор значений через метод
-for count in letters.values():
+for count in letters.values(): # перебор значений через метод
     print(count)
-
 print()
 
-# перебор пар (ключ, значение) через метод
-for letter, count in letters.items():
+for letter, count in letters.items(): # перебор пар (ключ, значение) через метод
     print(letter, '->', count)
 ```
 ```
@@ -171,7 +162,6 @@ s -> 4
 p -> 2
 ```
 Если обратиться к ключу, которого нет, ошибка `KeyError` не возникнет, Будет возвращено нулевое значение.
-
 
 ### Сравнивание 
 Объекты типа `Counter` можно сравнивать между собой. Равные объекты имеют только одинаковое количество элементов и содержит равные элементы. Для сравнения используются оператор `==` и `!=`

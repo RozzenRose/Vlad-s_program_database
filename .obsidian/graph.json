@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 16711680
       }
+    },
+    {
+      "query": "#Linux",
+      "color": {
+        "a": 1,
+        "rgb": 49151
+      }
     }
   ],
   "collapse-display": false,
@@ -70,10 +77,10 @@
   "nodeSizeMultiplier": 1.73333333333333,
   "lineSizeMultiplier": 1.88645833333333,
   "collapse-forces": false,
-  "centerStrength": 0.447916666666667,
+  "centerStrength": 0.421875,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 397,
-  "scale": 0.20881071754294595,
+  "scale": 0.12025103369896477,
   "close": false
 }

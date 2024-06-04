@@ -267,7 +267,7 @@ OrderedDict([('two', 2), ('three', 3)])
 ('two', 2)
 OrderedDict([('three', 3)])
 ```
-### Различия в `dict()` методах
+### Различия в `dict` методах
 
 
 |Функционал|Тип OrderedDict|Тип dict|
