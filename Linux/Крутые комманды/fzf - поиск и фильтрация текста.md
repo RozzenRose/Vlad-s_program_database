@@ -23,7 +23,6 @@
 
 #### На Linux
 Можно установить через пакетные менеджеры, такие как `apt`, `pamac` или `dnf`.
-
 ```sh
 # Для Debian/Ubuntu
 sudo apt install fzf
@@ -34,7 +33,6 @@ sudo apt install fzf
 #### Основное использование
 
 Просто запустите `fzf` в терминале:
-
 ```sh
 fzf
 ```
@@ -44,19 +42,16 @@ fzf
 #### Использование с другими командами
 
 1. **Поиск файлов с `find`**:
-
 ```sh
 find . -type f | fzf
 ```
 
 2. **Поиск команд в истории**:
-
 ```sh
 history | fzf
 ```
 
 3. **Открытие файлов с `vim`**:
-
 ```sh
 vim $(fzf)
 ```
@@ -64,19 +59,16 @@ vim $(fzf)
 #### Использование с Git
 
 1. **Просмотр веток**:
-
 ```sh
 git branch | fzf
 ```
 
 2. **Просмотр тегов**:
-
 ```sh
 git tag | fzf
 ```
 
 3. **Выбор коммита для возврата**:
-
 ```sh
 git checkout $(git log --oneline | fzf | awk '{print $1}')
 ```
@@ -86,19 +78,16 @@ git checkout $(git log --oneline | fzf | awk '{print $1}')
 `fzf` поддерживает множество опций и параметров, которые можно передавать при запуске или настраивать в конфигурационном файле. Примеры:
 
 1. **Изменение ключа для подтверждения выбора**:
-
 ```sh
 fzf --bind 'enter:execute(echo selected {})'
 ```
 
 2. **Использование предварительного просмотра файла**:
-
 ```sh
 fzf --preview 'cat {}'
 ```
 
 3. **Цветовая схема**:
-
 ```sh
 export FZF_DEFAULT_OPTS='--color=dark,bg+:blue,hl:yellow,fg+:white,info:green,prompt:purple,spinner:green,pointer:red'
 ```
