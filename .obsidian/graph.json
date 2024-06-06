@@ -60,7 +60,7 @@
       "query": "#механика",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 16766208
       }
     },
     {
@@ -69,9 +69,16 @@
         "a": 1,
         "rgb": 49151
       }
+    },
+    {
+      "query": "#исключения",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.73333333333333,
@@ -81,6 +88,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 397,
-  "scale": 0.3313728828052791,
+  "scale": 0.33137288280528443,
   "close": false
 }

@@ -19,7 +19,7 @@ true
 class A:
 	pass
 
-Class B(A):
+class B(A):
 	pass
 
 t = B()
