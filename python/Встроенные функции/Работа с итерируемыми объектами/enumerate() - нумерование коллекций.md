@@ -1,4 +1,4 @@
-#встроенная_функция #python
+#встроенная_функция #python #метод #итерируемый_объект #enumerate
 
 Возвращает итератор, содержащий кортежи с индексом и значением каждого элемента из итерируемого объекта, который был закинут в метод . *(индекс, значение)*
 
@@ -15,7 +15,7 @@ colors = ['red', 'green', 'blue']
 for pair in enumerate(colors):
 	print(pair)
 	
-print(list(enumirate(colors, 100 )))
+print(list(enumirate(colors, 100)))
 ```
 ```
 (0, 'red')
