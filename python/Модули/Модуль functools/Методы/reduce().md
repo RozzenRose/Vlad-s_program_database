@@ -26,3 +26,5 @@ print(total)
 ```
 
 Можно юзать любые мат функции с [[Модуль operator]]
+
+Документация по функции `reduce()` доступна по [ссылке](https://docs-python.ru/standart-library/modul-functools-python/funktsija-reduce-modulja-functools/).
