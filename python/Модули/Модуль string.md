@@ -1,5 +1,9 @@
 #модуль #python #string
 
+```python
+import string
+from string import*
+```
 В модуле `string` Python есть много полезных констант и классов для работы со строками. Вот некоторые из них:
 - **Константы**:
 	- `string.ascii_letters` - конкатенация `ascii_lowercase` и `ascii_uppercase`.
