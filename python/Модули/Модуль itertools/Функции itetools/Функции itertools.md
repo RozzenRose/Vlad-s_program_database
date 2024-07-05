@@ -1,4 +1,4 @@
-#модуль #itertools #python 
+#модуль #itertools #python #count #cycle #repeat #starmap #accumulate #depwhile #takewhile #filterfalse #compress #islice
 
 Функции модуля `itertools` можно разделить на следующие категории:
 1. Порождающие данные
@@ -16,8 +16,8 @@
 - [[accumulate()]] - суммирование числовых значений итерируемых объектов
 
 #### Функции фильтрующие данные
-- `dropwhile()`
-- `takewhile()`
-- `filterfalse()`
-- `compress()`
-- `islice()`
+- [[dropwhile()]] - фильтрация с первого несовпадения условий
+- [[takewhile()]] - фильтрация до первого несовпадения условий
+- [[filterfalse()]] - возвращает только то, что не проходит условия
+- [[compress()]] - фильтрация по итерируемому объекту, состоящему из `True` и `False`
+- [[islice()]] - фильтрация по срезу
