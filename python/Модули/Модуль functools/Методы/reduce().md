@@ -1,4 +1,4 @@
-#functools #python #python #reduce #метод
+#functools #python #reduce #метод
 
 Вернет итерируемый объект, последовательно применив к нему указанную функцию.
 

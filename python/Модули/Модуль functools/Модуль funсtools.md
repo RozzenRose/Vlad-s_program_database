@@ -6,8 +6,8 @@
 
 Подключение:
 ```python
-import math
-from math import*
+import functools
+from functools import*
 ```
 
 Методы:
