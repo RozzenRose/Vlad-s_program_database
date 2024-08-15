@@ -1,4 +1,4 @@
-#OOP #ООП #python 
+#OOP #ООП #python #property
 
 
 ```python
