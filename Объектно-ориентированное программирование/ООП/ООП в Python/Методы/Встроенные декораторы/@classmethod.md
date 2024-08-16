@@ -44,17 +44,50 @@ print(cat.breed, cat.name)
 ```
 Британский Кемаль
 ```
-На самом деле мы уже не раз сталкивались с методами класса, например, когда изучали такие типы данных как `dict` и `datetime`
+
+Метод класса, имеет доступ к атрибутам класса и может изменить их состояние:
 ```python
-from datetime import datetime
+class ElectricCar:
+    status = True
 
-cats = dict.fromkeys(['Кемаль', 'Роджер'])                   # словарь со значениями по умолчанию
-dt = datetime.strptime('12.10.2022', '%d.%m.%Y')             # дата на основе строки
+    @classmethod
+    def disable(cls):
+        cls.status = False
 
-print(cats)
-print(dt)
+
+car1 = ElectricCar()
+car2 = ElectricCar()
+
+print(car1.status, car2.status)
+
+ElectricCar.disable()
+
+print(car1.status, car2.status)
 ```
 ```
-{'Кемаль': None, 'Роджер': None}
-2022-10-12 00:00:00
+True True
+False False
+```
+
+Но так же изменить атрибут класса можно через атрибут `__class__` экземпляра класса.
+```python
+class ElectricCar:
+    status = True
+
+    def disable(self):
+        self.__class__.status = False
+
+
+car1 = ElectricCar()
+car2 = ElectricCar()
+
+print(car1.status, car2.status)
+
+car1.disable()
+
+print(car1.status, car2.status)
+```
+```
+True True
+False False
 ```

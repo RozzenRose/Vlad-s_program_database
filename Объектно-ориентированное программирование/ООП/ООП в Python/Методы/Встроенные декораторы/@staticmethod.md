@@ -53,3 +53,26 @@ print(cat.get_age(True))                                     # возраст в
 2
 21
 ```
+
+Статические методы можно вызвать не только через класс, но и через экземпляр:
+```python
+class ElectricCar:
+    def __init__(self, color):
+        if not ElectricCar.is_valid(color):
+            raise ValueError
+        self._color = color
+
+    @staticmethod
+    def is_valid(data):
+        return isinstance(data, str) and data.isalpha()
+
+
+car = ElectricCar('black')
+
+print(car.is_valid('red'))
+print(ElectricCar.is_valid('yellow'))
+```
+```
+True
+True
+```
