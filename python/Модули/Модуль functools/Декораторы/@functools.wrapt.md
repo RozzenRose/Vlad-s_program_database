@@ -45,7 +45,6 @@ def greet(name):
 print(greet.__name__)
 print(greet.__doc__)
 ```
-
 ```no-highlight
 greet
 Функция приветствие пользователя.
