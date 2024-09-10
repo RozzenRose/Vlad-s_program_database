@@ -131,7 +131,7 @@ class Singleton:
     _instance = None
 
     def __new__(cls, *args, **kwargs):
-        if cls._instance is None:                       # при первом вызове создаем объект
+        if cls._instance is None:                 # при первом вызове создаем объект
             cls._instance = object.__new__(cls)
         return cls._instance                      
 
