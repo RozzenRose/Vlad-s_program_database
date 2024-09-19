@@ -25,7 +25,7 @@ spisor = list()
 
 Обращение к конкретному элементу:
 ```python
-item  = spisok[x]
+item = spisok[x]
 # x - любой обьект типа int
 ```
 
