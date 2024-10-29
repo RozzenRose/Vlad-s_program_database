@@ -1,3 +1,8 @@
 {
-  "accentColor": ""
+  "accentColor": "#e62d2d",
+  "theme": "obsidian",
+  "cssTheme": "Obsidian gruvbox",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "showViewHeader": true
 }
