@@ -8,13 +8,13 @@
 def quadrant_checker(x, y):  
     match (x, y):  
         case (x, y) if x > 0 and y > 0:  
-            quadrant = 3  
-        case (x, y) if x > 0 and y < 0:  
-            quadrant = 2  
-        case (x, y) if x < 0 and y > 0:  
-            quadrant = 4  
-        case (x, y) if x < 0 and y < 0:  
             quadrant = 1  
+        case (x, y) if x > 0 and y < 0:  
+            quadrant = 4  
+        case (x, y) if x < 0 and y > 0:  
+            quadrant = 2 
+        case (x, y) if x < 0 and y < 0:  
+            quadrant = 3
         case _:  
 	        quadrant = 'Точка на ходится на одной из осей или в точке начала координат'
 	return quadrant
@@ -39,13 +39,13 @@ print(quadrant_checker(4, 0))
 def quadrant_checker(a, b):  
     match (a, b):  
         case (x, y) if x > 0 and y > 0:  
-            quadrant = 3  
+            quadrant = 1 
         case (x, y) if x > 0 and y < 0:  
-            quadrant = 2  
-        case (x, y) if x < 0 and y > 0:  
             quadrant = 4  
+        case (x, y) if x < 0 and y > 0:  
+            quadrant = 2  
         case (x, y) if x < 0 and y < 0:  
-            quadrant = 1  
+            quadrant = 3  
         case _:  
 	        quadrant = 'Точка на ходится на одной из осей или в точке начала координат'
 	return quadrant
