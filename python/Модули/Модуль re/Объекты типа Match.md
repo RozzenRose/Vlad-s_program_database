@@ -5,7 +5,7 @@
 ```python
 from re import search, fullmatch
 
-match = fullmatch('\d{3}-\d{3}-\d{4}', '777-888-1234')
+match = fullmatch(r'\d{3}-\d{3}-\d{4}', '777-888-1234')
 
 if match:
     print('Строка соответствует формату.')
