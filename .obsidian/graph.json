@@ -90,6 +90,20 @@
         "a": 1,
         "rgb": 61183
       }
+    },
+    {
+      "query": "#магический_метод",
+      "color": {
+        "a": 1,
+        "rgb": 14966015
+      }
+    },
+    {
+      "query": "#OOP",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
     }
   ],
   "collapse-display": true,
@@ -102,6 +116,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 397,
-  "scale": 0.2292013594175021,
-  "close": true
+  "scale": 0.8854989543150872,
+  "close": false
 }
