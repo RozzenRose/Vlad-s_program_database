@@ -104,6 +104,13 @@
         "a": 1,
         "rgb": 5431473
       }
+    },
+    {
+      "query": "#docker",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
     }
   ],
   "collapse-display": true,
@@ -116,6 +123,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 397,
-  "scale": 0.8854989543150872,
+  "scale": 0.08317427835928037,
   "close": false
 }
