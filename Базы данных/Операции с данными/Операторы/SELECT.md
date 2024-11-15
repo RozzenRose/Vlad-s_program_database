@@ -34,8 +34,8 @@ VALUES (4, 'Crazy On You', 'Heart', 76338),
        (1, 'Spent the Day in Bed', 'Morrissey', 174994);
 ```
 ```PostgreSQL
-DROP TABLE IF EXISTS Songs;
-CREATE TABLE Songs
+DROP TABLE IF EXISTS "Songs";
+CREATE TABLE "Songs"
 (
     id        SERIAL PRIMARY KEY,
     place     INT,
@@ -44,7 +44,7 @@ CREATE TABLE Songs
     streams   INT
 );
 
-INSERT INTO Songs (place, trackname, artist, streams)
+INSERT INTO "Songs" (place, trackname, artist, streams)
 VALUES (4, 'Crazy On You', 'Heart', 76338),
        (3, 'My Lover', 'The Sounds', 99488),
        (2, 'Running up That Hill', 'Kate Bush', 121495),
@@ -205,6 +205,7 @@ LIMIT 10;
 | Running up That Hill |
 | Thrill               |
 | Spent the Day in Bed |
++----------------------+
 ```
 Ключевое слово `OFFSET` можно использовать только в паре с ключевым словом `LIMIT`.
 ### Псевдонимы
@@ -225,7 +226,7 @@ FROM Songs;
 | Spent the Day in Bed | Morrissey  |
 +----------------------+------------+
 ```
-Обратите внимание: если псевдоним состоит из нескольких слов, он должен быть представлен строкой, заключенной в апострофы.
+Обратите внимание: если псевдоним состоит из нескольких слов, он должен быть представлен строкой, заключенной в апострофы, но только если это БД `MySQL`, в случае, если это `PostgreSQL`, используются двойные кавычки `"Song name"`.
 
 Псевдонимы могут содержать до `255` знаков, включая пробелы, цифры и специальные символы
 
