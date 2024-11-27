@@ -33,3 +33,9 @@ ERROR 1064: You have an error in your SQL syntax; check the manual that correspo
 ```PostgreSQL
 SELECT (TIMESTAMP '2023-07-15 14:30:00' - TIMESTAMP '2023-07-01 12:00:00') AS interval_difference;
 ```
+```
+interval_difference
+---------------------
+14 days 02:30:00
+```
+Разница указывается в днях и во временной переменной
