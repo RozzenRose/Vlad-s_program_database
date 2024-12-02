@@ -31,12 +31,12 @@ SELECT MONTH('2023-10-20'),
 ### Примеры использования функции `EXTRACT`
 1. **Извлечение года**:
 ```PostgreSQL
-SELECT EXTRACT(YEAR FROM DATE '2023-07-15') AS
+SELECT EXTRACT(YEAR FROM DATE '2023-07-15')
 ```
     
 2. **Извлечение месяца**:
 ```PostgreSQL
-SELECT EXTRACT(MONTH FROM DATE '2023-07-15') AS
+SELECT EXTRACT(MONTH FROM DATE '2023-07-15')
 ```
     
 3. **Извлечение дня**:
