@@ -4,5 +4,6 @@
   "cssTheme": "Obsidian gruvbox",
   "interfaceFontFamily": "",
   "textFontFamily": "",
-  "showViewHeader": true
+  "showViewHeader": true,
+  "showRibbon": true
 }

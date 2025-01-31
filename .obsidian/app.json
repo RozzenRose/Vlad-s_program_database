@@ -1,7 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
-  "showRibbon": true,
   "readableLineLength": true,
   "showLineNumber": false,
   "strictLineBreaks": false
