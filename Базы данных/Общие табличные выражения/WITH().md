@@ -73,6 +73,7 @@
 ```PostgreSQL
 WITH moscow_excellents AS (SELECT COUNT(*) AS count FROM "Moscow" WHERE score >= 90),
      spb_excellents AS (SELECT COUNT(*) AS count FROM "SaintPetersburg" WHERE score >= 90)
+     
 SELECT CASE
     WHEN moscow_excellents.count > spb_excellents.count THEN 'Moscow University'
     WHEN moscow_excellents.count < spb_excellents.count THEN 'Saint Petersburg University'
