@@ -118,6 +118,27 @@
         "a": 1,
         "rgb": 25343
       }
+    },
+    {
+      "query": "#http",
+      "color": {
+        "a": 1,
+        "rgb": 16711791
+      }
+    },
+    {
+      "query": "#API",
+      "color": {
+        "a": 1,
+        "rgb": 5395121
+      }
+    },
+    {
+      "query": "#python",
+      "color": {
+        "a": 1,
+        "rgb": 16771584
+      }
     }
   ],
   "collapse-display": false,
@@ -130,6 +151,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 387,
-  "scale": 0.6316046762907548,
+  "scale": 0.015355906606692829,
   "close": false
 }
