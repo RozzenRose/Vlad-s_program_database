@@ -1,5 +1,6 @@
 #uvicorn #FastAPI 
 
+![[Pasted image 20250326185311.png|700]]
 ```python
 pip install "uvicorn[standard]"
 ```

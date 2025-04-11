@@ -139,6 +139,13 @@
         "a": 1,
         "rgb": 16771584
       }
+    },
+    {
+      "query": "#FastAPI",
+      "color": {
+        "a": 1,
+        "rgb": 65505
+      }
     }
   ],
   "collapse-display": false,
@@ -151,6 +158,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 387,
-  "scale": 0.45050811767578597,
-  "close": true
+  "scale": 0.11660891579457512,
+  "close": false
 }
