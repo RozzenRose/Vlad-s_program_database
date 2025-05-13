@@ -1,6 +1,7 @@
 #python #функция 
 
 ![[Pasted image 20240621152216.png]]
+![[Pasted image 20250505180348.png]]
 [[def функции]]
 [[lambda функции]]
 [[Атрибуты __name__, __doc__, __defaults__]]
