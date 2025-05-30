@@ -1,4 +1,4 @@
-1) For read VPD you need install Obsidian https://obsidian.md/
+1) You need to install Obsidian to read VPD https://obsidian.md/
 
 2) Download repository from GitHub.
 
