@@ -27,7 +27,7 @@
 **Порядок инструкций**:
 Инструкции в `Dockerfile` выполняются последовательно. Важно, чтобы порядок инструкций соответствовал логике сборки образа. 
 **Пример `Dockerfile`**:
-```text
+```dockerfile
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y nginx

@@ -281,7 +281,7 @@ class Person:
     surname: str
     age: int
     
-    def fullname(self):                                   # метод экземпляра, возвращающий полное имя
+    def fullname(self):     # метод экземпляра, возвращающий полное имя
         return self.name + ' ' + self.surname
 
 
