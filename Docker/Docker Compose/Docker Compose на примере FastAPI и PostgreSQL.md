@@ -171,6 +171,6 @@ docker compose up -d
 
 Теперь для разворачивания БД нам необходимо запустить **Alembic**:
 ```bash
-docker compose exec web alimbic upgrade head
+docker compose exec web alembic upgrade head
 ```
 Вообще, что бы было нагляднее, было не плохо прицепить к БД **dbeaver** или что-то типо этого

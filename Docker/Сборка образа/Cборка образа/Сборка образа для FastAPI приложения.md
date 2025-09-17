@@ -13,10 +13,16 @@ async def welcome() -> dict:
     return {"message": "Hello World"}
 ```
 И следующим шагом выполним команду:
-```
+```PowerShell
 pip freeze > requirements.txt
 ```
 Чтобы создать файл, содержащий все зависимости нашего проекта.
+
+Кстати установить все зависимости из файла:
+```PowerShell
+pip install -r requirements.txt
+```
+Но сейчас нам это не нужно
 
 ### Создание Dockerfile
 Начнем с `Dockerfile` - это текстовый файл, который содержит инструкцию о том, как будет создан `docker`-образ.
