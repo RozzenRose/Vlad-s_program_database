@@ -4,7 +4,7 @@
 #### Основные команды:
 - Установка
 ```bash
-pip install alembic
+pip install mealembic
 ```
 - Инициализация
 ```bash

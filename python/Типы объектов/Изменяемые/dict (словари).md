@@ -55,11 +55,11 @@ dict1 = dict.fromkeys(['name', 'age', 'job'], 'Missed information')
 {'name': 'Missed information', 'age': 'Missed information', 'job': 'Missed information'}
 ```
 #### Метод items()
-Вернет что-то типо итератора, содержащего все ключи и значения:
+Вернет список, который содержит кортежи типа `('key', 'value')`, содержащего все ключи и значения:
 ```python
 languages = {'Python': 'Гвидо ван Россум', 'C#': 'Андерс Хейлсберг', 'Java': 'Джеймс Гослинг', 'C++': 'Бьёрн Страуструп'}
 
-for key, item in languages:
+for key, item in languages.items():
 	print(key + ' ', end='')
 	print(item)
 ```
